@@ -1,7 +1,17 @@
-body{
+html {
+    font-size: 13px;
+}
+
+.header {
+    margin: 70px 0 20px 0;
+}
+
+body {
     background: #2C3E50;
 }
-h2,h3{
+
+h2,
+h3 {
     color: white;
 }
 
@@ -15,11 +25,42 @@ h2,h3{
 
 .border-radius {
     background-color: white;
-    height: 90vh;
-    width: 100vh;
+    /* height: 90vh; */
     border-radius: 12px;
     -webkit-border-radius: 12px;
-    -moz-border-radius:12px;
-    -o-border-radius:12px;
-    -ms-border-radius:12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.form-text-header {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+}
+
+.form-container-margin {
+    margin-bottom: 20px;
+}
+
+.btn-enviar {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border-top: dotted 2px;
+
+}
+
+legend {
+    color: white;
+    width: 35vh;
+    background-color: #2C3E50;
+    padding: 2px 5px;
+    margin-bottom: 20px;
+}
+.texto-form{
+    text-align: right;
+    font-size: 1.2rem;
 }
