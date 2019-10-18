@@ -1,3 +1,7 @@
+<?php
+    require_once("includes/db.php");
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -11,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- css -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>

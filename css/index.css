@@ -64,3 +64,19 @@ legend {
     text-align: right;
     font-size: 1.2rem;
 }
+
+.copyright {
+    background-color: rgb(7, 7, 7);
+    padding: 12px 0;
+    font-size:14px;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+    /* margin-left: 1.5rem; */
+}
+
+.terminos{
+    font-size: 0.8rem;
+}
