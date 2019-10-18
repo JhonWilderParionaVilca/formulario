@@ -25,7 +25,7 @@ h3 {
 
 .border-radius {
     background-color: white;
-    /* height: 90vh; */
+    height: 150vh;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -79,4 +79,19 @@ legend {
 
 .terminos{
     font-size: 0.8rem;
+}
+
+li{
+    display: inline-flex;
+
+}
+.navbar-logo{
+    display: inline-flex;
+}
+.navbar-brand{
+    display: inline-flex;
+}
+
+.table-space{
+    padding-top: 20px;
 }

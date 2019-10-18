@@ -78,6 +78,7 @@
                 die("Query failed" . mysqli_error($connection));
             } else {
                 echo "<script>alert('Datos insertado exitosamente');</script>";
+                
             }
         }else{
             echo "<script>alert('Vuelva a intentarlo');</script>";
